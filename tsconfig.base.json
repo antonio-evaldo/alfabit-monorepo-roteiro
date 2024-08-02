@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@alfabit/button": ["libs/button/src/index.ts"]
+      "@alfabit/button": ["libs/button/src/index.ts"],
+      "@alfabit/ds-storybook": ["libs/storybook-host/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
