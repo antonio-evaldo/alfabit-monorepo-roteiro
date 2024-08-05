@@ -73,3 +73,24 @@ export const SecondaryButtonViolet: Story = {
     theme: "violet"
   }
 }
+
+export const SecondaryButtonDisabledViolet: Story = {
+  args: {
+    ...SecondaryButtonDisabled.args,
+    theme: "violet"
+  }
+}
+
+export const TertiaryButtonViolet: Story = {
+  args: {
+    ...TertiaryButton.args,
+    theme: "violet"
+  }
+}
+
+export const TertiaryButtonDisabledViolet: Story = {
+  args: {
+    ...TertiaryButtonDisabled.args,
+    theme: "violet"
+  }
+}
