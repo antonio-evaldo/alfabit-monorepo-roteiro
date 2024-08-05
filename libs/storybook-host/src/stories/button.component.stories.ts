@@ -38,3 +38,17 @@ export const SecondaryButtonDisabled: Story = {
     disabled: true
   }
 }
+
+export const TertiaryButton: Story = {
+  args: {
+    ...PrimaryButton.args,
+    variant: 'tertiary'
+  }
+}
+
+export const TertiaryButtonDisabled: Story = {
+  args: {
+    ...TertiaryButton.args,
+    disabled: true
+  }
+}
