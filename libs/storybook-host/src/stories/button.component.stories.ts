@@ -14,6 +14,7 @@ export const PrimaryButton: Story = {
   args: {
     text: 'Action',
     variant: 'primary',
+    theme: "blue",
     disabled: false
   }
 }
